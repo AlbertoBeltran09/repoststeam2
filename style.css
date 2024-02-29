@@ -1,0 +1,162 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.arriba{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    color: #000;
+}
+#local{
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    align-items: center;
+    color: #000;
+}
+
+.conte2{
+    display: flex;
+    align-items: center;
+    background-color: darkslategray;
+    
+}
+.conte2 img{
+    width: 50%;
+}
+.conte2 div {
+    width: 50%;
+    text-align: center;
+    font-size: 2pc;
+    color: beige;
+}
+.conte3{
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    margin-top: 30px;
+}
+.conte3 div{
+    text-align: center;
+    width: 50%;
+}
+.div1{
+    width: 50%;
+    background-color: bisque;
+}
+.conte3 img{
+    width: 50%;
+}
+#conoce{
+    color: black;
+}
+.div2{
+    width: 50%;
+    background-color: azure;
+}
+.conte4{
+    display: flex;
+    align-items: center;
+    background-color: darkslategray;
+    margin-top: 30px;
+}
+.conte4 img{
+    width: 50%;
+}
+.conte4 div {
+    color: beige;
+    width: 50%;
+    text-align: center;
+    font-size: 2pc;
+}
+
+#informe{
+    color: beige;
+    background-color: darkslategray;
+}
+.conte5{
+    display: flex;
+    align-items: center;
+    background-color: darkslategray;
+    margin-top: 30px;
+}
+.conte5 img{
+    width: 50%;
+}
+.conte5 div {
+    color: beige;
+    width: 50%;
+    text-align: center;
+    font-size: 2pc;
+}
+#informacion{
+    color: beige;
+    background-color: darkslategray;
+}
+.conte6{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: black;
+    margin-top: 30px;
+}
+.conte6 div1{
+    color: black;
+}
+.conte6 img{
+    width: 4pc;
+    height: 4pc;
+}
+
+.conte6 a {
+    color: #000;
+}
+@media screen and (min-width:0px) and (max-width:576px){
+    .conte2{
+        display: grid;
+    }
+    .conte3{
+        display: grid;
+    }
+    .conte4{
+        display: grid;
+    }
+    .conte5{
+        display: grid;
+    }
+    .conte6{
+        display: grid;
+    }
+}
+.conte7{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+#redes{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 1pc;
+    width: 100%;
+}
+#terminos{
+    display: flex;
+    gap: 20px;
+}
+#footer{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
